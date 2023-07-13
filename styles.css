@@ -1,0 +1,139 @@
+
+
+#title1 { 
+    text-align: center;
+    color: #596157;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.container3 {
+    border: 1px solid Black;
+    padding: 10px;
+}
+.step10 {
+    background-color: grey;
+    padding: 20px;
+
+}
+
+.step10 {
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group label {
+    margin-right: 10px;
+}
+
+
+.favs {
+    text-align: center;
+}
+
+.article {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #cdb4db;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.article h3 {
+    color: #1b4b75;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.article p {
+    color: #c13068;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.upcoming-event {
+    background-color: #52414C;
+    padding: 10px;
+    margin: 20px;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.upcoming-event:not(:last-child) {
+    margin-right: 10px; 
+}
+
+.event-name {
+    color: #5B8C5A;
+    font-weight: bold;
+}
+
+.event-location {
+    color: #CFD186;
+    font-weight: bold;
+}
+
+.event-date {
+    color: #E3655B;
+    font-weight: bold;
+}
+
+img {
+    border: 2px solid black;
+}
+
+.button1 {
+    border: 1px solid white;
+    color: #C2EABD;
+    background-color: #ED254E;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.image {
+    margin-left: 50px;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.text {
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 50px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+
+

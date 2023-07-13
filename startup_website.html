@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="functions.js"></script>
+</head>
+<body>
+<h1 id="title1">Issac Newton</h1><br>
+<div class="container">
+    <div class ="image">    <img scr="IssacNewton.jpg" class="image"></div>
+    <div class ="text">    
+        <p>Issac Newton was born in 1643 and was a well known mathmatician, physicist, and astronomer.<br><br>
+            His notable contribution include: <br><br>
+            • Laws Of Motion<br>
+            • Universal Gravitation and<br>
+            • He was the founding father of Calculus. <br><br>
+            There's a story of how gravity was discovered because Issac was sitting under a tree and an apple fell on his head.<br>
+            An interesting fact about Issac Newton was that he was knighted by Queen Anne in 1705, becoming Sir Issac Newton! 
+        </p> 
+    </div>
+</div>
+<h2>Upcoming Events:</h2>
+<div class="container2">
+    
+    <div class="upcoming-event">
+        <p class="event-name">Event 1</p>
+        <p class="event-location">Location 1</p>
+        <p class="event-date">Date 1</p>
+    </div>
+    <div class="upcoming-event">
+        <p class="event-name">Event 2</p>
+        <p class="event-location">Location 2</p>
+        <p class="event-date">Date 2</p>
+    </div>
+    <div class="upcoming-event">
+        <p class="event-name">Event 3</p>
+        <p class="event-location">Location 3</p>
+        <p class="event-date">Date 3</p>
+    </div>
+</div>
+<br>
+<div class="button-container"> 
+    <button class="button1" onclick="style_me()">Style me</button>
+</div>
+<script src="functions.js"></script>
+<br>
+
+<div class="step10">
+    <form>
+        <div class="form-group">
+            <label for="scientist">Favorite Scientist:</label>
+            <input type="text" id="scientist" name="scientist" style="margin-right: 20px">
+            <button type= button onclick="addScientist()" style="margin-right: 20px">+</button>
+        </div>
+    </form> 
+    <p style="margin-right: 20px">Your favorite Scientist is:</p>
+    <input type="text" id="favsci" readonly>
+    <!--read only so a text cannot be entered-->
+</div>
+</body>
+</html>
